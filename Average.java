@@ -1,14 +1,12 @@
-class Average{
-public static void main(String args[])
-{
-int sum=0;
-int n=10;
-for(int i=0;i<=n;i++){
-sum=i+sum;
-}
-int avg;
-avg=sum/n;
-System.out.println("Average:",avg);
-System.out.println("Sum:",sum);
-}
+class Average {
+    public static void main(String args[]) {
+        int sum = 0;
+        int n = 10;
+        for (int i = 1; i <= n; i++) {  
+            sum = sum + i;
+        }
+        int avg = sum / n;  
+        System.out.println("Average: " + avg);
+        System.out.println("Sum: " + sum);
+    }
 }
